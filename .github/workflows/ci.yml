@@ -9,8 +9,7 @@ on:
 
 permissions:
   contents: read
-
-jobs:
+jobs: 
   verify:
     name: Repository hygiene
     runs-on: ubuntu-latest
