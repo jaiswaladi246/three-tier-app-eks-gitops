@@ -1,0 +1,22 @@
+name: Bug report
+description: Report something that is not working
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Include logs or screenshots if you have them
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit SHA
+
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Environment
+      options: [local, qa, production]
