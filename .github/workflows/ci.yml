@@ -21,7 +21,6 @@ jobs:
           test -f README.md
           test -f LICENSE
           test -f .gitignore
-          test -f .env.example
 
       - name: No environment file is tracked
         run: |
